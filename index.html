@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>mic art</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="wrapper">
+        <div v-for="x in range" class="segment">
+          <div v-for="y in range" class="segment" :id="'x' + x + 'y' + y"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://unpkg.com/vue-material@beta"></script>
+  <script src="script.js"></script>
+</html>
