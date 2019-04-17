@@ -14,10 +14,10 @@ body{
   overflow: hidden;
 }
 #app{
-  animation: zoomAndSpin 5s infinite;
-  transform-origin: 50% 50%;
-  margin-top: -50%;
-  height: 100vh;
+  /* animation: zoomAndSpin 5s infinite; */
+  /* transform-origin: 50% 50%; */
+  /* margin-top: -50%; */
+  /* height: 100vh; */
 }
 
 @keyframes zoomAndSpin{
